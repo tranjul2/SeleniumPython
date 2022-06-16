@@ -1,0 +1,13 @@
+1655249846286	geckodriver	INFO	Listening on 127.0.0.1:60218
+1655249849321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cryst\\AppData\\Local\\Temp\\rust_mozprofile7DdzwA"
+1655249849996	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60219
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Cryst\\AppData\\Local\\Temp\\rust_mozprofile7DdzwA\\search.json.mozlz4", (void 0)))
+1655249853565	Marionette	INFO	Listening on port 60245
+Read port: 60245
+1655249853683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:60219/devtools/browser/2e4f4b46-cfe0-4929-b78f-b761bf8d9e59
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.thetestingworld.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1655250136950	Marionette	INFO	Stopped listening on port 60245
+[Parent 1784, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
